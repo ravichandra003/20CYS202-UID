@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ANOKHA</title>
+<link rel='icon'href="C:\Users\Ravi\Desktop\anokha\images\ANOKHA2.jpg"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+         
+<body>
+<center>
+<header>
+<h1> ANOKHA TECHFEST2023</h1>
+</header>
+                 
+<head>
+<title>Sign up </title>
+</head>
+<body>
+<form>
+<table>
+<tr>
+<td><label>USERNAME:</label></td>
+
+<td> <input type="text" placeholder="Enter your name Here" name="username" required></td>
+</tr>
+
+<tr>
+<td><label>EMAIL-ID:</label></td>
+
+<td> <input type="mail" placeholder="Enter your mail Id Here" name="email" required></td>
+</tr>
+<tr>
+<td><label>PASSWORD:</label></td>
+<td> <input type="Password" name="password" required></td>
+</tr> 
+<tr>
+<td><label>GENDER:</label></td>
+<td> <input type="radio" name="gender" value="m" required> Male
+<input type="radio" name="gender" value="f" required> Female
+<input type="radio" name="gender" value="o" required> Others</td>
+</tr>
+<td><label>TYPE:</label></td>
+<td> <input type="radio" name="type" value="o" required> external participants
+<input type="radio" name="type" value="i" required> internal 
+</td>
+</tr>
+<tr>
+<td>
+  <label for="college">COLLEGE NAME:</label></td>
+  <td> <select name="college" id="clg">
+    <option value="amrita">AMRITA</option>
+    <option value="vit">VIT</option>
+    <option value="srm">SRM</option>
+    <option value="manipual">MANIPUAL</option>
+    <option value="IIT MUMBAI">IIT MUMBAI</option>
+  </select>
+</td>
+</tr>
+<tr>
+<td><label for="ws">about you workshop:</label></td>
+<td><textarea id="ws" name="ws" rows="6" cols="50" placeholder="enter text here">
+</textarea></td>
+</tr>
+<br>
+<tr>
+<td><label for="DATE">DATE OF REGISTRATION:</label></td>
+<td><input type="date" id="DATE" name="DATE"min="2020-01-01" max="2023-12-31"></td>
+</tr>
+<tr>
+<td> <input type="submit" name="Submit" value="Sign up" onclick="submit_form()"></td>
+<td> <input type="button" value="login" onClick="create()"/></td>
+</tr>
+</table>
+</form>
+</center>
+
+<script type="text/javascript">  
+function submit_form(){  
+alert("signup sucessfully successfully");  
+}  
+function create(){  
+window.location="login.html";  
+}  
+</script>  
+
+
+
+</body>
+
+</html>
